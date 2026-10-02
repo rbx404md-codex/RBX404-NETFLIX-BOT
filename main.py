@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🎬 Netflix Multi-Tool Bot v4.0
+🎬 RBX404 Netflix Multi-Tool Bot v4.0
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ✅ All-in-One | Single File | Zero Errors
 ✅ Images from assets/ folder
@@ -1341,7 +1341,7 @@ def build_nftoken_links_only(token, expires, user_id=None):
 # MENUS
 # ══════════════════════════════════════════════════════════════
 WELCOME_CAPTION = (
-    "🎬 <b>NETFLIX MULTI-TOOL BOT</b> 🎬\n"
+    "🎬 <b>RBX404 NETFLIX MULTI-TOOL BOT</b> 🎬\n"
     "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
     "✨ <b>Welcome, {name}!</b>\n\n"
     "🎯 <b>What I can do:</b>\n"
