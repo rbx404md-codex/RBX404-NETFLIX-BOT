@@ -20,4 +20,4 @@ PySocks==1.7.1
 orjson==3.9.10
 
 # ─── Optional: For image processing ───
-Pillow==10.2.0Netflix
+Pillow==10.2.0
