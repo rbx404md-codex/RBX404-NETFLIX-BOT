@@ -1,3 +1,23 @@
-python-telegram-bot>=22.4
-requests
-urllib3
+# ══════════════════════════════════════════════════
+# RBX404 Netflix Bot — Requirements
+# ══════════════════════════════════════════════════
+
+# ─── Core (Required) ───
+python-telegram-bot==20.7
+requests==2.31.0
+
+# ─── PDF Export Support ───
+reportlab==4.0.9
+
+# ─── Bonus (for better performance) ───
+aiohttp==3.9.1
+urllib3==2.1.0
+
+# ─── Optional: For proxy support (SOCKS) ───
+PySocks==1.7.1
+
+# ─── Optional: For faster JSON (auto-fallback) ───
+orjson==3.9.10
+
+# ─── Optional: For image processing ───
+Pillow==10.2.0Netflix
