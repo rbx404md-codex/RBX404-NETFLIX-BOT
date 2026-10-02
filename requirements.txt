@@ -1,23 +1,33 @@
-# ══════════════════════════════════════════════════
-# RBX404 Netflix Bot — Requirements
-# ══════════════════════════════════════════════════
+#══════════════════════════════════════════════════
 
-# ─── Core (Required) ───
+#RBX404 Netflix Bot — Requirements
+
+#Python 3.13 / Railway compatible
+
+#══════════════════════════════════════════════════
+
+#─── Core ─────────────────────────────────────────
+
 python-telegram-bot==20.7
 requests==2.31.0
 
-# ─── PDF Export Support ───
-reportlab==4.0.9
+#─── PDF Export ───────────────────────────────────
 
-# ─── Bonus (for better performance) ───
-aiohttp==3.9.1
-urllib3==2.1.0
+reportlab==5.0.1
 
-# ─── Optional: For proxy support (SOCKS) ───
+#─── Async / Network ──────────────────────────────
+
+aiohttp==3.12.15
+urllib3==2.5.0
+
+#─── SOCKS / Proxy Support ────────────────────────
+
 PySocks==1.7.1
 
-# ─── Optional: For faster JSON (auto-fallback) ───
-orjson==3.9.10
+#─── Fast JSON ────────────────────────────────────
 
-# ─── Optional: For image processing ───
-Pillow==10.2.0
+orjson==3.12.0
+
+#─── Image Processing ─────────────────────────────
+
+Pillow==11.3.0
